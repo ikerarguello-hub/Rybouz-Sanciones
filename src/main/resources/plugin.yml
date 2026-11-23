@@ -1,0 +1,22 @@
+name: Sanciones
+version: 1.0.0
+main: com.rybouz.sanciones.SancionesPlugin
+api-version: '1.21'
+commands:
+  sancionmute:
+    description: Mutea a un jugador desde consola
+    usage: /sancionmute <Nick> <Motivo> <Tiempo>
+  sancionban:
+    description: Banea a un jugador desde consola
+    usage: /sancionban <Nick> <Motivo> <Tiempo>
+  hist:
+    description: Muestra el historial de sanciones de un jugador
+    usage: /hist <Nick>
+    aliases: [historial]
+permissions:
+  sanciones.use:
+    default: false
+  sanciones.ban:
+    default: false
+  sanciones.hist:
+    default: false
