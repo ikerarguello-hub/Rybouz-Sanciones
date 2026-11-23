@@ -1,0 +1,3 @@
+# Variables: {nick}, {motivo}, {tiempo}
+mute-command: "mute {nick} {motivo} {tiempo}"
+ban-command: "ipban {nick} {motivo} {tiempo}"
